@@ -2,19 +2,19 @@ def using_concat(array1, array2)
   array1.concat(array2)
 end
 
-def using_insert(list_of_programming_languages, another_language)
-  list_of_programming_languages.insert(4, another_language)
+def using_insert(array, item)
+  array.insert(4, item)
 end
 
-def using_uniq(haircuts)
-  haircuts.uniq
+def using_uniq(array)
+  array.uniq
 end
 
-def using_flatten(instruments)
-  instruments.flatten
+def using_flatten(array)
+  array.flatten
 end
 
-def using_delete(instructors, name)
+def using_delete(array, item)
   instructors.delete(name)
 end
 
