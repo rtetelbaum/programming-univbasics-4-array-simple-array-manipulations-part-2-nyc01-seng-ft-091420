@@ -2,8 +2,8 @@ def using_concat(array1, array2)
   array1.concat(array2)
 end
 
-def using_insert(array, item)
-  array.insert(4, item)
+def using_insert(array, element)
+  array.insert(4, element)
 end
 
 def using_uniq(array)
@@ -14,10 +14,10 @@ def using_flatten(array)
   array.flatten
 end
 
-def using_delete(array, item)
-  instructors.delete(name)
+def using_delete(array, string)
+  array.delete(string)
 end
 
-def using_delete_at(famous_robots, index)
-  famous_robots.delete_at(2)
+def using_delete_at(array, index)
+  array.delete_at(index)
 end
